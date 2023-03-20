@@ -24,8 +24,6 @@ public class ErrorResponse {
     private final String message;
     private final String path;
 
-    // @Valid를 사용했을 때 에러가 발생한 경우 어느 필드에서 에러가 발생했는지 응답
-    // @JsonInclude 는 Jackson 어노테이션으로 errors 가 null 이거나 empty 이면 전달하지 않기 위해 NON_EMPTY 적용
     @JsonInclude(JsonInclude.Include.NON_EMPTY)
     private final List<ValidationError> validationErrors;
 

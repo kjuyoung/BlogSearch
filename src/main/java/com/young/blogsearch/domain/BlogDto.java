@@ -4,7 +4,6 @@ import com.young.blogsearch.common.modelmapper.CustomMapper;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import java.io.Serializable;
 import java.util.List;

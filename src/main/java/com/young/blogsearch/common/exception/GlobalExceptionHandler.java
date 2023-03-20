@@ -14,7 +14,6 @@ import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.context.request.ServletWebRequest;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
-import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import com.young.blogsearch.common.exception.ErrorResponse.ErrorResponseBuilder;
@@ -25,7 +24,6 @@ import java.util.stream.Collectors;
 
 @Slf4j
 @RestControllerAdvice
-//public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 public class GlobalExceptionHandler  {
 
     private ResponseEntity<Object> handleExceptionInternal(final ErrorCode errorCode, final Exception ex, final WebRequest request) {
