@@ -27,6 +27,7 @@ dependencies {
 	// webclient
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 
+	// for Macbook m1
 	implementation 'io.netty:netty-resolver-dns-native-macos:4.1.90.Final:osx-aarch_64'
 
 //	compileOnly 'org.projectlombok:lombok'
@@ -39,7 +40,16 @@ dependencies {
 	implementation "org.mapstruct:mapstruct:1.4.1.Final"
 	annotationProcessor "org.mapstruct:mapstruct-processor:1.4.1.Final"
 
+	// Validation
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+	// MockWebServer
+	testImplementation "com.squareup.okhttp3:okhttp"
+	testImplementation 'com.squareup.okhttp3:mockwebserver'
+	testImplementation 'io.projectreactor:reactor-test'
+
+	// Rate limit
+	implementation 'com.github.vladimir-bukhtoyarov:bucket4j-core:7.6.0'
 }
 
 tasks.named('test') {

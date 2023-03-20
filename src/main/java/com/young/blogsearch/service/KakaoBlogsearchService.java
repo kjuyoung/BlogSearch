@@ -51,7 +51,6 @@ public class KakaoBlogsearchService implements BlogsearchService{
     public static final String X_NAVER_CLIENT_ID = "YvYYiC6RVNwo53vLvoBY ";
     public static final String X_NAVER_CLIENT_SECRET = "ASLrpUAntF";
 
-    private final Logger logger = LoggerFactory.getLogger(KakaoBlogsearchService.class);
     private final KeywordRepository keywordRepository;
 
     @Transactional
