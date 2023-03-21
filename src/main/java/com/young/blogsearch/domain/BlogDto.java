@@ -1,6 +1,7 @@
 package com.young.blogsearch.domain;
 
 import com.young.blogsearch.common.modelmapper.CustomMapper;
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,9 +13,9 @@ import java.util.List;
 @NoArgsConstructor
 public class BlogDto implements Serializable {
 
-    @ApiModelProperty(value = "메타 데이터", dataType = "Meta", required = false, example = "")
+    @Schema(description = "메타 데이터" , example = "0")
     private Meta meta;
-    @ApiModelProperty(value = "블로그 검색 결과", dataType = "List<Documents>", required = false, example = "")
+    @Schema(description = "블로그 검색 결과" , example = "0")
     private List<Documents> documents;
 
     @Builder
