@@ -48,4 +48,4 @@ touch popular_keywords.mv.db
 - 아래 1개 테이블이 생성되어야 합니다.
 <img width="183" alt="image" src="https://user-images.githubusercontent.com/101622499/226618321-788a6ac9-d450-44d0-81c2-26265dd83555.png">
 
-- Swagger로 접속하여 테스트하면 됩니다. 프로젝트 실행 후 [http://localhost:8000/docs/index.html](http://localhost:8080/swagger-ui/index.html) 에서 API 확인.
+- Swagger로 접속하여 테스트하면 됩니다. 프로젝트 실행 후 [http://localhost:8000/docs/index.html](http://localhost:8080/swagger-ui/index.html) 에서 API를 확인합니다.
