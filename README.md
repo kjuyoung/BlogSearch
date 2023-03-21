@@ -33,7 +33,8 @@
 <br/>
 
 ## 실행방법
-- 하기 명령어로 jar파일을 실행합니다.
+- 하기 다운로드 링크를 통해 blogsearch.jar를 다운로드받고, 명령어로 jar파일을 실행합니다.
+https://github.com/kjuyoung/BlogSearch/releases/download/blogsearch/blogsearch.jar
 ```
 java -jar -Dspring.profiles.active=local blogsearch.jar
 ```
