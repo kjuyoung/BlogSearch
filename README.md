@@ -49,3 +49,6 @@ touch popular_keywords.mv.db
 <img width="183" alt="image" src="https://user-images.githubusercontent.com/101622499/226618321-788a6ac9-d450-44d0-81c2-26265dd83555.png">
 
 - Swagger로 접속하여 테스트하면 됩니다. 프로젝트 실행 후 [http://localhost:8000/docs/index.html](http://localhost:8080/swagger-ui/index.html) 에서 API를 확인합니다.
+
+- ERD 설계
+<img width="184" alt="image" src="https://user-images.githubusercontent.com/101622499/226639648-c3b5a143-2449-4b78-9cff-60cf7c6719ae.png">
