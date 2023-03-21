@@ -12,7 +12,9 @@ import java.util.List;
 @NoArgsConstructor
 public class BlogDto implements Serializable {
 
+    @ApiModelProperty(value = "메타 데이터", dataType = "Meta", required = false, example = "")
     private Meta meta;
+    @ApiModelProperty(value = "블로그 검색 결과", dataType = "List<Documents>", required = false, example = "")
     private List<Documents> documents;
 
     @Builder
